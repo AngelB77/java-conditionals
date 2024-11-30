@@ -15,13 +15,13 @@ public class TrafficLights {
         String color = "verde";
 
         switch (color) {
-            case verde:
+            case "verde":
                 System.out.println("Puedes seguir");
                 break;
-            case amarillo:
+            case "amarillo":
                 System.out.println("Ten cuidado");
                 break;
-            case rojo:
+            case "rojo":
                 System.out.println("¡¡¡Para!!!");
                 break;
             default:
